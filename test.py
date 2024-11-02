@@ -1,2 +1,4 @@
-from client_resnet import image_files
-print(image_files)
+import tritonclient.http as httpclient
+import tritonclient.grpc as grpcclient
+
+print("Import Available")
