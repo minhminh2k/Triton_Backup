@@ -58,7 +58,7 @@ os.makedirs("./output_segment/", exist_ok=True)
 
 # Image folder
 # folder_path = "./input_test_v2_8000/"
-folder_path = "./input_test_v2_ship_40/"
+folder_path = "./input/"
 output_path = "./output_segment/"
 
 # List of images
@@ -67,15 +67,6 @@ print(len(image_files))
 
 # Batch Size
 batch_size = 4
-
-# Preprocess all images
-# list_data = []
-# for image_path in image_files:
-#     transformed_img = preprocess_image(f"{folder_path}{image_path}")
-#     list_data.append(transformed_img)
-    
-# list_data = np.array(list_data)
-    
 count = 0
 
 '''
